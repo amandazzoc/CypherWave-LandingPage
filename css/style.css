@@ -7,94 +7,73 @@
 nav{
     background-color: #000916;
     border-bottom: 1px solid rgba(121, 179, 255, 0.479); ;
+    z-index: 3;
 }
+
 .logo{
     background: url("../img/logoCypher.png");
     width: auto;
     background-repeat: no-repeat;
     height: 58px;
 }
-
-
 .intro{
     background: url("../img/background_home.png");
+    background-color: #000916;
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    background-color: #050835;
 }
-
-/* Esta definição é aplicada para dispositivos móveis e tablets */
+.content{
+    padding-top: 72px;
+    margin-left: 5%;
+}
 .title{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
-    font-size: 40px; /* Tamanho da fonte padrão para dispositivos móveis */
     color: #fff;
-    margin-top: 62px;
-    margin-left: 10px;
+    width: 50%;
+    font-size: 40vh;
 }
-
-
 .blue{
     color: #3B93FF;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
-.wave{
-    background-image: url("../img/waves-cllr.png");
-    background-size: cover;
-    margin-top: -120px;
-    height: 680px;
-    width: auto;
-}
 button{
     height:47px;
-    width: 142px;
-    background: linear-gradient(312deg, rgba(35,116,225,1) 0%, rgba(206,227,255,1) 100%); /* Cor de fundo */
-    color:#050835 ; /* Cor do texto */
-    font-size: 16px; /* Tamanho da fonte */
-    border: none; /* Remove a borda padrão */
-    cursor: pointer; /* Cursor do mouse ao passar sobre o botão */
-    border-radius: 50px; /* Borda arredondada */
+    width: 16vw;
+    background: linear-gradient(312deg, rgba(35,116,225,1) 0%, rgba(206,227,255,1) 100%);
+    color:#050835 ; 
+    font-size: 16px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 50px; 
     font-family: "Raleway", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 
-/* Estilos para dispositivos móveis (até 600px de largura) */
-@media screen and (min-width: 601px) {
+@media only screen and (min-width: 601px) {
     .title{
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 48px; /* Tamanho da fonte maior para desktops */
-        color: #fff;
-        margin-top: 62px;
-        margin-left: 10px;
+        width: 50%;
+        font-size: 4vh;
     }
 }
 
-/* Estilos para desktops (a partir de 1024px de largura) */
-@media screen and (min-width: 1025px) {
-    .intro {
-        background: url("../img/desktop_home.png");
-        background-size: cover;
-        background-color: #000916;
-    }
+@media only screen and (min-width: 1025px) {
     .wave{
         background-image: url("../img/waves.png");
-        margin-top: -240px;
-        height: 688px;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-top: -400px;
+        margin-left: 22%;
+        height: 680px;
         width: auto;
     }
     .title{
-        font-family: "Raleway", sans-serif;
-        font-weight: 700;
-        font-size: 64px; /* Tamanho da fonte maior para desktops */
-        color: #fff;
-        margin-top: 62px;
-        margin-left: 30vh;
-        width: 740px;
+        font-size: 6vh;
+        width: 40vw;
     }
-    .button-div{
-        margin-left: 20px;
+    .content{
+        padding-top: 160px;
+        margin-left: 15%;
     }
-}
+    
+} 
