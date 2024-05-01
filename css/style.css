@@ -51,7 +51,7 @@ button{
     font-family: "Raleway", sans-serif;
     font-weight: 700;
 }
-.w{
+.content-wave{
     position: absolute;
     display: flex;
     justify-content: start;
@@ -73,7 +73,7 @@ button{
         font-size: 6vh;
         width: 42vw;
     }
-    .w{
+    .content-wave{
         position: absolute;
         display: flex;
         padding-right: 10%;
@@ -110,7 +110,7 @@ button{
         height:47px;
         width: 160px;
     }
-    .w{
+    .content-wave{
         position: absolute;
         display: flex;
         justify-content: end;
