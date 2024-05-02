@@ -94,6 +94,7 @@ button {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10%;
 }
 
 .card {
@@ -119,6 +120,7 @@ button {
     margin-top: 10px;
 }
 
+/* divisor */
 hr {
     width: 100%;
     height: 80px;
@@ -127,6 +129,58 @@ hr {
     border-left: 1px;
     border-right: 1px;
     background: linear-gradient(90deg, rgba(35, 116, 225, 0.5) 0%, rgba(255, 255, 255, 0) 30%);
+}
+
+/* Quem somos content */
+.content-text-integrantes {
+    margin-top: 10%;
+}
+
+.title-integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-text-integrantes p {
+    margin-top: 5%;
+    font-size: 16px;
+}
+
+.content-text-integrantes h1 {
+    font-size: 36px;
+}
+
+/* Cards quem somos content */
+.content-cards-integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.card-integrante {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 70px;
+    width: 280px;
+    padding: 20px 30px;
+    background: linear-gradient(117deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: inset 0 0 0 1px rgb(193, 193, 193, 0.04);
+}
+
+.card-integrante h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.card-integrante p {
+    font-size: 14px;
+    margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 688px) and (max-width: 1025px) {
@@ -177,6 +231,16 @@ hr {
     .text-card {
         margin-top: 15px;
     }
+
+    /* Quem somos content */
+    .content-text-integrantes {
+        padding: 0 15%;
+    }
+
+    .content-text-integrantes p {
+        margin-top: 5%;
+    }
+
 }
 
 @media only screen and (min-width: 1025px) {
@@ -232,5 +296,23 @@ hr {
 
     .text-card {
         margin-top: 15px;
+    }
+
+    /* Quem somos content */
+    .content-text-integrantes {
+        padding: 0 25%;
+    }
+
+    .content-text-integrantes p {
+        margin-top: 5%;
+    }
+    /* Cards quem somos content */
+    .content-cards-integrantes {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card-integrante{
+        margin: 1% 1%;
     }
 }
