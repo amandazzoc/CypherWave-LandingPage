@@ -247,6 +247,40 @@ hr {
 
 .logo-mobo-white {
   margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* itens content */
+.braco-img{
+  width: 250px;
+}
+
+.content-img{
+  display: flex;
+  justify-content: center;
+}
+
+.item{
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(4,23,47,1) 0%, rgba(255,255,255,0.3317865429234339) 43%, rgba(255,255,255,0.00696055684454755) 100%);
+  padding: 5%;
+  border-radius: 15px;
+  margin-bottom: 50px;
+  margin-top: -30px;
+}
+
+.item p{
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.item img{
+  height: 15px;
+}
+
+.content-itens{
+  margin-top: 5%;
 }
 
 @media only screen and (min-width: 688px) and (max-width: 1025px) {
@@ -320,6 +354,43 @@ hr {
   .content-mobo .mockup {
     margin-top: -30%;
   }
+
+  /* itens content */
+
+  .content-itens{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .braco-img{
+    width: 250px;
+  }
+  
+  .content-img{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(4,23,47,1) 0%, rgba(255,255,255,0.3317865429234339) 43%, rgba(255,255,255,0.00696055684454755) 100%);
+    padding: 5%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+  }
+  
+  .item p{
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .item img{
+    height: 15px;
+  }
+
 
 }
 
@@ -430,4 +501,42 @@ hr {
   .content-text-integrantes h1 {
     font-size: 48px;
   }
+
+   /* itens content */
+
+   .content-itens{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .braco-img{
+    width: 250px;
+  }
+  
+  .content-img{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .item{
+    display: flex;
+    align-items: start;
+    background: linear-gradient(90deg, rgba(4,23,47,1) 0%, rgba(255,255,255,0.3317865429234339) 43%, rgba(255,255,255,0.00696055684454755) 100%);
+    padding: 5%;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+  }
+  
+  .item p{
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .item img{
+    height: 15px;
+  }
+
 }
