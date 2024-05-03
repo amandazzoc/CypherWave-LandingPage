@@ -206,6 +206,13 @@ hr {
   width: 100%;
 }
 
+.blur2 {
+  position: absolute;
+  margin-top: -50%;
+  z-index: 1;
+  width: 0%;
+}
+
 /* Projeto */
 .content-mobo {
   background: linear-gradient(
@@ -217,9 +224,12 @@ hr {
   border-radius: 70px;
   margin-top: 50%;
   padding: 2%;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 2;
+  position: relative; /* Adicionado para z-index funcionar */
 }
 
 .content-mobo .mockup {
@@ -252,7 +262,7 @@ hr {
 
 /* itens content */
 .braco-img{
-  width: 250px;
+  width: 300px;
 }
 
 .content-img{
@@ -264,10 +274,9 @@ hr {
   display: flex;
   align-items: center;
   background: linear-gradient(90deg, rgba(4,23,47,1) 0%, rgba(255,255,255,0.3317865429234339) 43%, rgba(255,255,255,0.00696055684454755) 100%);
-  padding: 15px;
+  padding: 20px;
   border-radius: 15px;
-  margin-bottom: 50px;
-  margin-top: -30px;
+  margin-bottom: 20px;
 }
 
 .item p{
@@ -280,9 +289,42 @@ hr {
 }
 
 .content-itens{
-  margin-top: 5%;
+  z-index: 2;
+  position: relative; /* Adicionado para z-index funcionar */
 }
 
+.list-itens{
+  margin-top: -10%;
+}
+
+.logo-completo{
+  width: 90%;
+  margin-top: -35%;
+}
+
+.content-text-mobo-final{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content-mobo-final {
+  background: linear-gradient(
+    117deg,
+    rgba(255, 255, 255, 0.4) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: inset 0 0 0 1px rgb(193, 193, 193, 0.04);
+  border-radius: 70px;
+  margin-top: 50%;
+  padding: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  position: relative; /* Adicionado para z-index funcionar */
+}
 @media only screen and (min-width: 688px) and (max-width: 1025px) {
   .intro {
     height: 400px;
@@ -344,7 +386,7 @@ hr {
   .blur {
     margin-top: -40%;
   }
-
+  
   /* Projeto */
   .content-mobo {
     margin-top: 50%;
@@ -366,16 +408,20 @@ hr {
   }
 
   .braco-img{
-    width: 30%;
+    width: 55%;
     position: absolute;
-    margin-top: -20%;
-    margin-left: -20%;
+    margin-top: -30%;
+    margin-left: -40%;
   }
 
   .list-itens{
     width: 90%;
+    margin-top: 0;
   }
 
+  .item{
+    padding: 15px;
+  }
 }
 
 @media only screen and (min-width: 1025px) {
@@ -457,6 +503,11 @@ hr {
     margin-top: -40%;
   }
 
+  .blur2 {
+    margin-top: -100%;
+    width: 100%;
+  }
+  
   /* Projeto */
   .content-mobo {
     margin-top: 20%;
@@ -496,15 +547,15 @@ hr {
   }
 
   .braco-img{
-    width: 25%;
+    width: 50%;
     position: absolute;
-    margin-top: -15%;
-    margin-left: -5%;
+    margin-top: -27%;
+    margin-left: -10%;
   }
-  
   
   .list-itens{
     width: 90%;
+    margin-top: 0;
   }
 
 }
