@@ -10,6 +10,23 @@
   font-family: "Livvic", sans-serif;
 }
 
+/* scrollbar */
+
+::-webkit-scrollbar-track {
+  background-color: #000916;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: #000916;
+}
+::-webkit-scrollbar-thumb {
+  background: #001c44;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: #003681;
+}
+
+
 /* Nav-Bar */
 nav {
   background-color: #000916;
