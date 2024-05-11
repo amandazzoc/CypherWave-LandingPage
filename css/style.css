@@ -95,7 +95,7 @@ main {
 }
 
 /* cards metodos*/
-.padraomudar {
+.format {
   margin: 0 7%;
   background-color: #000916;
 }
@@ -147,7 +147,10 @@ hr {
 /* Quem somos content */
 .content-text-integrantes {
   margin-top: 10%;
+
 }
+
+
 
 .title-integrantes {
   display: flex;
@@ -192,7 +195,9 @@ hr {
   /* Adicionado para z-index funcionar */
   z-index: 2;
   /* Defina um valor maior do que o .blur */
+  transition: all 0.5s;
 }
+
 
 .card-integrante h3 {
   font-size: 16px;
@@ -274,6 +279,8 @@ hr {
 /* itens content */
 .braco-img {
   width: 300px;
+  position: relative;
+  z-index: 2;
 }
 
 .content-img {
@@ -378,6 +385,14 @@ footer p {
   font-weight: 700;
 }
 
+
+
+.efeito-txt-topo, efeito-card-1, efeito-card-2, efeito-card-3, efeito-card-4, efeito-img-topo, efeito-text-integrantes, efeito-integrantes1, efeito-integrantes2, efeito-integrantes3, efeito-integrantes4, efeito-mockup, efeito-txt-mobo1, efeito-fundo-mobo, efeito-lista1, efeito-lista2, efeito-lista3, efeito-lista4, efeito-img-braco, efeito-fundo-mobo2, efeito-img-logo, efeito-ramo, efeito-txt-mobo2{
+  visibility: hidden;
+}
+
+
+
 @media only screen and (min-width: 688px) and (max-width: 1025px) {
   .intro {
     height: 400px;
@@ -408,7 +423,7 @@ footer p {
   .wave {}
 
   /* cards metodos*/
-  .padraomudar {
+  .format {
     margin: 30px 5%;
   }
 
@@ -560,7 +575,7 @@ footer p {
   }
 
 
-  .padraomudar {
+  .format {
     margin: 0 15%;
   }
 
