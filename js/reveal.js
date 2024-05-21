@@ -58,19 +58,19 @@ revelar.reveal('.efeito-integrantes2',
     {
         duration: 2000,
         distance: '90px',
-        delay: 500,
+        delay: 300,
     })
 revelar.reveal('.efeito-integrantes3',
     {
         duration: 2000,
         distance: '90px',
-        delay: 1000
+        delay: 600
     })
 revelar.reveal('.efeito-integrantes4',
     {
         duration: 2000,
         distance: '90px',
-        delay: 1500
+        delay: 900
     })
 
 // MOBO
