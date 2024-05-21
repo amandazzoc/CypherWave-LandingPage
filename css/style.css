@@ -8,6 +8,7 @@
   box-sizing: border-box;
   color: #fff;
   font-family: "Livvic", sans-serif;
+  scroll-behavior: smooth
 }
 
 /* scrollbar */
@@ -882,7 +883,7 @@ efeito-txt-mobo2 {
   .content-text-mobo-final p {
     margin-top: -5%;
     margin-bottom: 10%;
-    font-size: 32px;
+    font-size: 26px;
   }
 
   /* Footer */
