@@ -30,7 +30,7 @@
 
 /* Nav-Bar */
 nav {
-  background-color: #000916;
+  background-color: #00091671;
   border-bottom: 1px solid rgba(121, 179, 255, 0.479);
   z-index: 3;
   padding: 0 5%;
@@ -167,7 +167,13 @@ main {
   background-repeat: no-repeat;
   height: 320px;
 }
+.logo-format{
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 /* cards metodos*/
 .format {
   margin: 0 7%;
@@ -321,9 +327,9 @@ hr {
 }
 
 .content-mobo .mockup {
-  width: 333px;
+  width: 200px;
   margin-top: -40%;
-  margin-left: -25px;
+  margin-left: -20px;
 }
 
 .content-text-mobo {
@@ -404,7 +410,7 @@ hr {
       rgba(255, 255, 255, 0) 100%);
   box-shadow: inset 0 0 0 1px rgb(193, 193, 193, 0.04);
   border-radius: 70px;
-  margin-top: 40%;
+  margin-top: 50%;
   padding: 0% 7% 20% 7%;
   display: flex;
   flex-direction: column;
@@ -415,23 +421,27 @@ hr {
 }
 
 .content-text-mobo-final p {
-  margin-top: 5%;
+  margin-top: 0%;
   text-align: start;
 }
 
 .logo-completo {
-  width: 90%;
-  margin-top: -30%;
+  width: 70%;
+  margin-top: 10%;
+  position: relative;
+}
+.mockup-completo {
+  width: 80%;
+  margin-top: -55%;
   position: relative;
   z-index: 3;
 }
-
 .ramoC {
   position: absolute;
   width: 100px;
   left: 0;
-  top: -10px;
-  z-index: 2;
+  top: -20px;
+  z-index: 3;
 }
 
 .ramoB {
@@ -629,12 +639,13 @@ efeito-txt-mobo2 {
 
   /* Projeto */
   .content-mobo {
-    margin-top: 50%;
+    margin-top: 40%;
     padding: 5%;
   }
 
   .content-mobo .mockup {
-    margin-top: -30%;
+    margin-top: -40%;
+    width: 40%;
   }
 
   /* itens content */
@@ -666,19 +677,19 @@ efeito-txt-mobo2 {
   /* final mobo */
   .content-mobo-final {
     padding: 0% 7% 5% 7%;
-    margin-top: 30%;
+    margin-top: 60%;
   }
 
   .logo-completo {
-    width: 70%;
-    margin-top: -20%;
+    width: 60%;
+    margin-top: 10%;
   }
 
   .ramoC {
     position: absolute;
     width: 150px;
     left: 0;
-    top: -40px;
+    top: -80px;
     z-index: 2;
   }
 
@@ -801,14 +812,14 @@ efeito-txt-mobo2 {
   /* Projeto */
   .content-mobo {
     margin-top: 20%;
-    padding: 5% 15% 5% 5%;
+    padding: 0% 15% 0% 5%;
     flex-direction: row;
   }
 
   .content-mobo .mockup {
-    margin-top: -15%;
-    width: 100%;
-    margin-left: -30%;
+    margin-top: -10%;
+    width: 90%;
+    margin-left: -20%;
   }
 
   .content-text-mobo h1 {
@@ -856,12 +867,11 @@ efeito-txt-mobo2 {
   /* final mobo */
   .content-mobo-final {
     padding: 0% 10% 4% 10%;
-    margin-top: 35%;
+    margin-top: 50%;
   }
 
   .logo-completo {
-    width: 70%;
-    margin-top: -25%;
+    width: 30%;
   }
 
   .ramoC {
